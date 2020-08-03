@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Tetris</title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+        <script type="text/javascript" src="jquery-2.2.3.min.js"></script>
+    </head> 
+    <body>
+    	<div class="wrap" >
+    		<div id="menu" class="main">
+        <h1>Tetris</h1>
+    			<div id="main">
+    		 		<ul>
+    		 			<a href="javascript:void(0)" class="button2 normal">Normal</a>
+              <a href="javascript:void(0)" class="button2 challenge">Challenge</a>
+              <a href="javascript:void(0)" class="button1 settings">Settings</a>
+              <a href="javascript:void(0)" class="button1 help">Help</a>
+    		 			<a href="javascript:void(0)" class="button1 credit">Credits</a>
+					</ul>
+				</div>
+        <div id="settings">
+              <ul>
+                <div class="volume">Volume: <span id="Volume"></span></div>
+                <a href="javascript:void(0)" class="button2 minusv">Decrease Volume</a>
+                <a href="javascript:void(0)" class="button2 plusv">Increase Volume</a>
+                <div class="normal_level">Normal Level: <span id="Level"></span></div>
+                <a href="javascript:void(0)" class="button2 minusl">Decrease Level</a>
+                <a href="javascript:void(0)" class="button2 plusl">Increase Level</a>
+              </ul>
+              <a href="javascript:void(0)" class="button back">Back</a>
+        </div>
+				<div id="credits">
+        			<ul>
+        				<li> Projecto Multimédia</li>
+          			<li> Christopher Liu</li>
+          			<li> Filipa Lopes</li>
+        			</ul>
+        			<a href="javascript:void(0)" class="button back">Back</a>
+      	</div>
+      			<div id="help">
+        			<ul>
+                <li>Normal: Preset speed game mode</li>
+                <li>Challenge: Increasing speed game mode</li>
+                <li>Settings: Change settings</li>
+                <li>Credits: Credits</li>
+                <li>KeyFunctions:</li>
+                <li>LEFT ARROW-Move piece to left</li>
+                <li>RIGHT ARROW-Move piece to right</li>
+                <li>DOWN ARROW-Increase piece drop speed</li>
+                <li>SPACEBAR-Rotate the piece</li>
+        			</ul>
+        			<a href="javascript:void(0)" class="button back">Back</a>
+      			</div>  
+      		</div>
+      	</div>
+    <script type="text/javascript" src="menu.js"></script>
+    </body>
+</html>  

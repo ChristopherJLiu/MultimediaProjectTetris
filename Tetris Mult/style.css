@@ -1,0 +1,211 @@
+body{
+  background: url(imgs/background.png)no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#menu h1{
+  font-family: Impact, fantasy;
+  font-size: 150px;
+  color:red;
+  text-align: center;
+}
+
+#main{
+  padding-right: 50px;
+  font-family: Helvetica, sans-serif;
+	display: block;
+	text-align: center;
+  color:white;
+}
+
+.back{
+  font-family: Helvetica, sans-serif;
+  display: block;
+  text-align: center;
+  color:white;
+}
+
+#settings{
+  padding-right: 50px;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color:white;
+  display:none;
+  font-size: xx-large;
+}
+
+
+#credits{
+  padding-right: 50px;
+  font-family: Helvetica, sans-serif;
+	text-align: center;
+	color:white;
+	display:none;
+	font-size: xx-large;
+}
+
+#help{
+  padding-right: 50px;
+  font-family: Helvetica, sans-serif;
+	text-align: center;
+	color:white;
+	display:none;
+	font-size: x-large;
+}
+
+.button {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: x-large;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 30px;
+  border: 1px solid #FFFFFF;
+  color: white;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-color: #000000;
+  background-image: -webkit-linear-gradient(bottom, #000000 0%, #000000 100%);
+  background-image:         linear-gradient(to bottom, #000000 0%, #000000 100%);
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #B30D5D;
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 100%);
+  background-image:         linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 100%);
+}
+
+
+.button2 {
+  padding: 10px;
+  font-family: Helvetica, sans-serif;
+  font-size: x-large;
+  display: inline-block;
+  width: 200px;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 30px;
+  border: 1px solid #FFFFFF;
+  color: blue;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-color: #000000;
+  background-image: -webkit-linear-gradient(bottom, #000000 0%, #000000 100%);
+  background-image:         linear-gradient(to bottom, #000000 0%, #000000 100%);
+  border-radius: 5px;
+}
+.button2:hover {
+  background-color: #B30D5D;
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 100%);
+  background-image:         linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 100%);
+}
+
+
+
+
+.button1 {
+  padding: 10px;
+  font-family: Helvetica, sans-serif;
+	font-size: x-large;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 30px;
+  border: 1px solid #FFFFFF;
+  color: green;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-color: #000000;
+  background-image: -webkit-linear-gradient(bottom, #000000 0%, #000000 100%);
+  background-image:         linear-gradient(to bottom, #000000 0%, #000000 100%);
+  border-radius: 5px;
+}
+.button1:hover {
+  background-color: #B30D5D;
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #FFFFFF 100%);
+  background-image:         linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 100%);
+}
+
+
+:hover{cursor:hand;}
+
+#tetris {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 10px solid #FFFFFF;
+}
+
+#tetrisnextpiece {
+    position: absolute;
+    top:550px;
+    right:150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 10px solid #FFFFFF;
+}
+
+.next{
+  position: absolute;
+  top: 375px;
+  right: 150px;
+  font-family: Impact, fantasy;
+  font-size: 3vw;
+  color:#FFFFFF;
+  text-align: center;
+}
+
+.score {
+  position: absolute;
+  top: 375px;
+  left: 150px;
+  font-family: Impact, fantasy;
+  font-size: 3vw;
+  color:#FFFFFF;
+  text-align: center;
+}
+
+.level{
+  position: absolute;
+  top:550px;
+  left:150px;
+  font-family: Impact, fantasy;
+  font-size: 3vw;
+  color:#FFFFFF;
+  text-align: center;
+}
+
+
+.game-over {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Impact, fantasy;
+  font-size: 10vw;
+  cursor: default;
+  display: none;
+}
+
+.volume {
+  font-family: Impact, fantasy;
+  font-size: 3vw;
+  color:yellow;
+  text-align: center;
+}
+
+.normal_level {
+  font-family: Impact, fantasy;
+  font-size: 3vw;
+  color:yellow;
+  text-align: center;
+}
